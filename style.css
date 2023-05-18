@@ -1,1 +1,20 @@
-
+.vermelho {
+    height: 100%;
+    width: 6.25%;
+    background-color: red;
+}
+.verde {
+    height: 100%;
+    width: 6.25%;
+    background-color: green;
+}
+.azul {
+    height: 100%;
+    width: 6.25%;
+    background-color: blue;
+}
+.linha{
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
