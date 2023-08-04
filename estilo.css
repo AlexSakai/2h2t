@@ -35,7 +35,14 @@ ul{
 }
 .logo{
     display: inline-block
+    
 }
+
+#logo{
+    width: 70px;
+    height: 70px;
+}
+
 .nav{
     width: 100vw;
     height: 100vh;
@@ -89,4 +96,16 @@ ul{
 
 .side-menu{
     display: none;
+}
+
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+
+.side-menu:checked ~.hamb .hamb-line {
+    background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before{
+    transform: rotate(-45deg);
+    top: 0;
 }
